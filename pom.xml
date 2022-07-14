@@ -11,7 +11,6 @@
 	<groupId>com.amq.guideline</groupId>
 	<artifactId>blueprint</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
 	<description>amq guideline</description>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
