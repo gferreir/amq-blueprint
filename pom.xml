@@ -43,4 +43,11 @@
 		</plugins>
 	</build>
 
+	<repositories>
+		<repository>
+			<id>red-hat-ga</id>
+			<url>https://maven.repository.redhat.com/ga</url>
+		</repository>
+ 	</repositories>
+
 </project>
