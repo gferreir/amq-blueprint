@@ -18,7 +18,7 @@ public class Consumer {
   private JmsTemplate jmsTemplate;
 
   // Consuming all messages from default queue (testQueue)
-  @JmsListener(destination = "${spring.activemq.default.queue}", containerFactory = "myFactory")
+  @JmsListener(destination = "${amqphub.default.queue}", containerFactory = "myFactory")
   public void receiveMessage(Customer customer){
     logger.info("Consuming message");
     logger.info(customer.toString());
