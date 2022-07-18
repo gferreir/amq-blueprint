@@ -25,10 +25,12 @@ public class Consumer {
   }
 
   // Receive the last message from a custom queue
-  public void receiveLastMessage(String queue){
+  public Customer receiveLastMessage(String queue){
     Customer customer = (Customer)jmsTemplate.receiveAndConvert(queue);
     logger.info("Consuming message");
     logger.info(customer.toString());
+
+    return customer;
   }
 
 }

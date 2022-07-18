@@ -25,7 +25,7 @@ public class CustomerCreator {
   
   public void createMany(int n){
 
-    for(int i = 0; i <= n; i++){
+    for(int i = 1; i <= n; i++){
       String rNames = names.get(random.nextInt(names.size()));
       String rCountries = countries.get(random.nextInt(countries.size()));
       String rHobbies = hobbies.get(random.nextInt(hobbies.size()));
